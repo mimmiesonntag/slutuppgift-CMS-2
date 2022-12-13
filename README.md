@@ -1,8 +1,9 @@
 # slutuppgift-CMS-2
 
+#använder storefront - woocomerce & wordpress. 
+
+
 #slutuppgift för ithögskolan cms fördjupningskurs. 
-#Du ska bygga en webbshop som säljer e-böcker. För detta ska du använda WordPress och
-WooCommerce.
 Krav- WordPress sajt för e-handel med WooCommerce
 - Shoppen ska sälja e-böcker av en viss genre, som du väljer själv
 - Anpassat utseende
