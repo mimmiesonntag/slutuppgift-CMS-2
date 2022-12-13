@@ -1,0 +1,67 @@
+/*
+Theme Name:   storefront Child
+Theme URI:    http://example.com/storefront-child/
+Description:  storefront Child Theme
+Author:       Mimmie Sonntag
+Author URI:   http://example.com
+Template:     storefront
+Version:      1.0.0
+License:      GNU General Public License v2 or later
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain:  storefrontchild
+*/
+
+.site-header{
+	width: 100%;
+	display: flex;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	padding-right: 170px;
+}
+
+
+/*fixar böcker centrerat*/
+.col-full{
+	float: center; 
+}
+
+/*tar bort search*/
+.site-header .site-search { display: none; }
+
+
+/*checkout page css*/
+thead {
+		visibility: hidden;
+		font-size: x-small;
+		height: 1px ;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+table{
+		display: flex;
+    flex-direction: column;
+}
+.product-name{
+		display:flex;
+		padding: 4px; 
+		height: 90px;
+}
+
+table.woocommerce-checkout-review-order-table .product-name {
+    width: 150%;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+}
+
+
+element.style {
+}
+
+.storefront-full-width-content.woocommerce-cart .entry-header, .storefront-full-width-content.woocommerce-checkout .entry-header, .storefront-full-width-content.woocommerce-account .entry-header, .storefront-full-width-content .woocommerce-products-header {
+    padding-top: 1px;
+    padding-right: 1px;
+    padding-bottom: 1em;
+    padding-left: 1px;
+}
